@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "web3.swift",
+    name: "argentlabsWeb3",
     platforms: [
         .iOS(SupportedPlatform.IOSVersion.v13),
         .macOS(SupportedPlatform.MacOSVersion.v11),
         .watchOS(.v7)
     ],
     products: [
-        .library(name: "web3.swift", targets: ["web3"]),
+        .library(name: "argentlabsWeb3", targets: ["web3"]),
         .library(name: "web3-zksync.swift", targets: ["web3-zksync"])
     ],
     dependencies: [
